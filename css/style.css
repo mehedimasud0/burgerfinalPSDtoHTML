@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16pt;
+    color: #3d2514;
+}
+img{
+    width: 100%;
+}
+header{
+    background-image: url(../images/Burger-House.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 660px;
+    overflow: hidden;
+}
+.container{
+    width: 90%;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.h_top{
+    overflow: hidden;
+}
+.logo_left{
+    width: 270px;
+    float: left;
+}
+.logo_left img{
+    width: 100%;
+}
+.logo_right{
+    float: right;
+    width: 320px;
+    text-align: center center;
+    margin-top: 10px;
+}
+.logo_right img{
+    width: 16%;
+}
+.logo_right p{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+}
+.h_bottom{
+    float: right;
+}
+.menu{}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 40px;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+.menu ul li a:last-child{
+    padding-right: 0;
+}
+.banner_area{
+    overflow: hidden;
+    width: 100%;
+}
+.content_area{
+    width: 50%;
+    margin-top: 170px;
+    float: left;
+}
+.content_area p{
+    border: 2px dashed #3d2514;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.content_area h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 96px;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 0px #f8f6f4;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content_area h2{
+    font-size: 42px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 0px #f8f6f4;
+    font-weight: 600;
+}
+.b_image{
+    width: 50%;
+    float: right;
+    
+}
+.b_image img{}
+.price{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+.border{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px dashed #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+.border h2{
+    position: absolute;
+    width: 40px;
+    height: 63px;
+    line-height: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+}
+.border h2 .small{
+    font-size: 14px;
+}
+.border h2 .only{
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+/*Header End*/
+.popular_section{
+    margin: 40px 0;
+    overflow: hidden;
+}
+.container2{
+    width: 1230px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.p_left{
+    background-image: url(../images/Burger-House1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 600px;
+    min-height: 420px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 30px;
+}
+.p_content{
+    padding: 20px;
+    color: #f8f6f4;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.p_content h3{
+    font-size: 18px;
+    
+}
+.p_content h2{
+    font-size: 30px;
+}
+.p_right{}
+.p_right_top{
+    background-image: url(../images/Burger-House2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 600px;
+    min-height: 195px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 30px;
+}
+.p_right_bottom{
+    background-image: url(../images/Burger-House1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 600px;
+    min-height: 195px;
+    border-radius: 5px;
+    float: left;
+}
+/*Popular Section End*/
+.content_section{
+    text-align: center;
+    margin: 30px;
+   
+}
+.button{
+    margin: 10px 0;
+}
+.button a{
+    text-decoration: none;
+    color: #3d2514;
+    background-color: rgb(186, 233, 16);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.content_section h1{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.content_section p{
+    padding: 10px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+/*Content Section End*/
+.card_section{
+    margin: 50px 0 0px;
+}
+.single_card{
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-right: 5%;
+    float: left;
+}
+.single_card:last-child{
+    margin-right: 0;
+}
+.single_card img{
+    width: 100%;
+}
+.card_content{
+    text-align: center;
+    padding: 0px 10px 20px;
+    line-height: 1.5;
+}
+.card_content h2{}
+.card_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.card_content a{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #f8f6f4;
+    background-color: rgb(233, 16, 45);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+/*Card Section End*/
+.discover_p{
+    margin: 40px 0 40px;
+}
+.box{
+    box-shadow: 20px 20px 50px 10px #ddd;
+    padding: 20px;
+    
+}
+.content_left{
+    width: 46%;
+    float: left;
+    padding-left: 100px ;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-right: 4%;
+    
+}
+.content_left h3{
+    font-size: 21px;
+    color: rgb(105, 102, 102);
+    letter-spacing: 2px;
+}
+.content_left h1{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.content_left p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: rgb(105, 102, 102);
+    padding-right:50px;
+}
+.img_right{
+    width: 50%;
+    float: left;
+}
+.img_right img{
+    width: 100%;
+    height: 350px;
+}
+/*Discover Section End*/
+.table_section{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 40px 0 40px;
+    overflow: hidden;
+    position: relative;
+    min-height: 630px;
+}
+
+.first_bg{
+    width: 240px;
+    position: absolute;
+}
+.bottol_bg{
+    width: 162px;
+    height: 377px;
+    position: absolute;
+    top: 190px;
+    left: 140px;
+}
+.third_bg{
+    width: 260px;
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: -30px;
+    
+}
+
+.table_content{
+    text-align: center;
+    margin-top: 50px;
+}
+.table_content h3{
+    font-size: 21px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.table_content h1{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.table_form{
+    width: 50%;
+    margin: 30px auto;
+}
+.table_form input{
+    width: 290px;
+    margin: 25px 10px 0px 0px;
+    padding:15px 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.table_form input:last-child{
+    margin-right: 0;
+}
+.table_form a{
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    width: 100%;
+    padding: 12px 62px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+/*Table Section End*/
+footer{
+    color: #fff;
+    margin-top: -100px;
+   
+}
+.footer_bg{
+    background-image: url(../images/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 95%;
+    margin: auto;
+    min-height: 420px;
+    
+}
+.footer_top{
+    overflow: hidden;
+    padding: 50px 50px;
+}
+.footer_logo{
+    width: 50%;
+}
+.footer_logo img{
+    width: 410px;
+}
+.footer_logo p{
+    padding: 30px 120px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.footer_address{
+    width: 40%;
+    float: right;
+    margin-top: -90px;
+}
+.footer_address .fa-solid{
+    display: block;
+    padding: 10px 20px;
+}
+.fa-solid span{
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.footer_bottom{
+    width: 90%;
+    margin: 60px auto ;
+    overflow: hidden;
+}
+.left_f{
+    width: 40%;
+    float: left;
+    margin-top: 15px;
+}
+.left_f{
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.right_f{
+    float: right;
+}
+.right_f .fa-brands{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #333;
+}
+.right_f .fa-brands:hover{
+    cursor: pointer;
+}
